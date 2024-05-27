@@ -39,7 +39,7 @@ menu li {
     font-size: .8em;
     background-color: rgb(56, 55, 55);
     color: white;
-    display: inline-block;
+    display: block;
     padding: 5px;
 }
 

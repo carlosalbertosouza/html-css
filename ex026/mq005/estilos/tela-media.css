@@ -2,6 +2,17 @@
 
 /* telas medias*/
 
-body {
-    background-color: brown;
+html {
+    background-color: rgb(144, 51, 51);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+
+menu li {
+    font-size: .8em;
+    background-color: rgb(56, 55, 55);
+    color: white;
+    display: inline-block;
+    padding: 5px;
 }

@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
 /* telas granes */
-
-body {
-    background-color: blue;
+html {
+    background-color: rgb(48, 218, 135);;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
 }
