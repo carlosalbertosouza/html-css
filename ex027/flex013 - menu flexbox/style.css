@@ -26,14 +26,14 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     text-shadow: 2px 2px 2px black;
     flex: 0 0 200px;
    
 }
 
 header > nav {
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
 
     display: flex;
     flex-flow: row wrap;
@@ -62,13 +62,4 @@ main {
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.336) ;
     padding: 10px;
     margin: 10px;
-}
-
-h2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-}
-
-p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
