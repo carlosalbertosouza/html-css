@@ -8,7 +8,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 1.5em;
     width: 100vw;
     height: 100vh;
@@ -35,6 +35,8 @@ section.flex-content {
 
     display: flex;
     flex-flow: column nowrap;
+
+    border: 4px dashed rgb(1, 43, 1);
 }
 
 article.text-media {
@@ -42,6 +44,8 @@ article.text-media {
     flex-flow: row wrap;
     justify-content: space-between;
     margin: 20px;
+
+    border: 4px dashed rgb(98, 107, 230);
 }
 
 article.media-text {
@@ -49,14 +53,20 @@ article.media-text {
     flex-flow: row wrap-reverse;
     justify-content: space-between;
     margin: 20px;
+
+    border: 4px dashed rgb(98, 107, 230);
 }
 
 article > div.text {
     flex: 1 1 500px;
+
+    border: 4px dashed rgb(175, 228, 76);
 }
 
 article > div.media {
     flex: 1 0 500px;
+
+    border: 4px dashed rgb(248, 13, 44);
 }
 
 div.media > img {
